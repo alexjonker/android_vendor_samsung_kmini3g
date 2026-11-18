@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libfactoryutil.so:system/vendor/lib/libfactoryutil.so \
-    vendor/samsung/kmini3g/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libhr.so:system/vendor/lib/libhr.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libinvensense_hal.so:system/vendor/lib/libinvensense_hal.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -166,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libprotobuf-cpp-crap.so:system/vendor/lib/libprotobuf-cpp-crap.so \
-    vendor/samsung/kmini3g/proprietary/vendor/lib/libprotobuf-cpp-lite.so:system/vendor/lib/libprotobuf-cpp-lite.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/samsung/kmini3g/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
@@ -201,5 +199,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kmini3g/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
     TimeService
